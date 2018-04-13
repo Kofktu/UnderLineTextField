@@ -196,7 +196,7 @@ open class UnderLineTextField: UITextField {
                                                    toItem: self,
                                                    attribute: .leading,
                                                    multiplier: 1,
-                                                   constant: 0))
+                                                   constant: 5))
         neededConstraint.append(NSLayoutConstraint(item: label,
                                                    attribute: .bottom,
                                                    relatedBy: .equal,
@@ -227,7 +227,7 @@ open class UnderLineTextField: UITextField {
                                                    toItem: self,
                                                    attribute: .leading,
                                                    multiplier: 1,
-                                                   constant: 0))
+                                                   constant: 5))
         neededConstraint.append(NSLayoutConstraint(item: label,
                                                    attribute: .centerY,
                                                    relatedBy: .equal,
